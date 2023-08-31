@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meong School</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!--NAVIGATION BAR-->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="#" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="profil.html" class="a-navbar">OUR PROFILE</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+        <!--NAVIGATION BAR END-->
+
+        <!--CONTENT 1-->
+        <div class="container-content0">
+            <h1> Hi Students</h1>
+            <h3> Selamat datang di Sekolah Kucing Keren</h3>
+            <p>Vission Our School : Make students and graduates smart and happy</p>
+            <p>Mission Our School : Make learning activities fun</p>
+
+        </div>
+        <!--CONTENT 1 END-->
+
+        <!--CONTENT 2-->
+        <div class="container-content">
+            <a href="https://www.instagram.com/meongvin/" class="a-content">
+                <img src="sekolahkucing.jpg" class="img-content" />
+            </a>
+
+        </div>
+        <!--CONTENT 2 END-->
+
+        <!--CONTENT 3-->
+        <div class="container-content2">
+            <h2>Our Facilities</h2>
+            <p>Classrooms</p>
+            <p>Canteen</p>
+            <p>Laboratorium</p>
+            <p>Playground</p>
+        </div>
+        <!--CONTENT 3 END-->
+
+        <!--CONTENT 4-->
+        <div class="container-content3">
+            <h2>Message US</h2>
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td width="120">Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Date</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td><input type="radio" name="jk"> Man
+                            <input type="radio" name="jk"> Woman
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> Adress</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Save">
+                        <td><input type="reset" value="delete reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <!--CONTENT 4 END-->
+
+</body>
+<script type="text/javascript">
+    function validasi() {
+        var nama = document.getElementById("text").value;
+        var email = document.getElementById("email").value;
+        var adress = document.getElementById("adress").value;
+        if (nama != "" && email != "" && alamat != "") {
+            return true;
+        } else {
+            alert('Anda harus mengisi data dengan lengkap !');
+        }
+    }
+</script>
+
+</html>
